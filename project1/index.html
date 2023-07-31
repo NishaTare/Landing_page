@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fix Fitness Hub</title>
+</head>
+<link
+    href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=Nunito&family=Ubuntu:wght@700&display=swap"
+    rel="stylesheet">
+<link rel="stylesheet" href=" css/style.css">
+<style>
+    /* CSS Reset */
+    body {
+        font-family: 'Barlow Condensed', sans-serif;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('img/adult-1850925_1280.jpg');
+    }
+
+    .left {
+        display: inline-block;
+        /* border: 2px solid blue; */
+        position: absolute;
+        left: 34px;
+        top: 20px;
+    }
+
+    .left img {
+        width: 110px;
+        border-radius: 34px;
+    }
+
+    .left div {
+        text-align: center;
+    }
+
+    .mid {
+        margin: 20px auto;
+        /* border: 2px solid rgb(206, 179, 179); */
+        margin-left: 30%;
+        display: inline-block;
+    }
+
+    .mid ul li {
+        display: inline-block;
+        width: 133px;
+        margin: 12px auto;
+        /* border: 2px solid grey; */
+
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 33px;
+        display: inline-block;
+        /* border: 2px solid yellow; */
+
+    }
+
+    .navbar {
+        display: inline-block;
+
+    }
+
+    .ul li {
+        display: inline-block;
+
+    }
+
+    .navbar li a {
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+
+    /* nav baar m jo bhi work hoga inhi k and hoga */
+    ul li a {
+        width: 36px;
+        color: white;
+        text-decoration: none;
+        padding: 14px 3px;
+        /* font-size: 25px; */
+    }
+
+    ul li a:hover,
+    ul li a.active {
+        text-decoration: underline;
+        color: grey;
+    }
+
+    .btn {
+        font-family: 'Barlow Condensed', sans-serif;
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 10px 10px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgb(44, 42, 42);
+    }
+
+    .container {
+        /* border: 2px solid white; */
+        margin: 10px 1100px;
+        padding: 55px;
+        border-radius: 20px;
+        width: 300px;
+    }
+
+    .form-group input {
+        font-family: 'Barlow Condensed', sans-serif;
+        display: block;
+        text-align: center;
+        width: 326px;
+        padding: 6px 3px;
+        border: 2px solid black;
+        font-size: 20px;
+        border-radius: 10px;
+        margin: 7px;
+
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 20%;
+        margin: auto;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- Left box for logo -->
+        <div class="left">
+            <img src="img/images (1).jpg" alt="">
+            <div>Fix Fitness Hub</div>
+        </div>
+        <!-- <Mid box for navbar -->
+        <div class="mid">
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Fitness calculator</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </div>
+        <!-- Right box for bottons -->
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best gym of Gwalior now</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Locality ">
+            </div>
+            <br>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
